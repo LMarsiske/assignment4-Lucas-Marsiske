@@ -28,6 +28,7 @@ nav a:hover {
 main {
   margin: 10% auto;
   padding: 5%;
+  font: 16px "Futura PT", sans-serif;
 }
 
 main p {
@@ -51,4 +52,31 @@ main img {
   position: absolute;
   left: 5%;
   max-width: 400px;
+}
+
+#animatethis {
+  width: 400px;
+  height: 400px;
+  border-radius: 5%;
+  border: 1px solid black;
+  float: right;
+  animation: colorChange 5s infinite;
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: black;
+  }
+  25% {
+    background-color: orange;
+  }
+  50% {
+    background-color: blue;
+  }
+  75% {
+    background-color: orange;
+  }
+  100% {
+    background-color: black;
+  }
 }
