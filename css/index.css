@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: #ccc;
+  position: fixed;
+  display: flex;
+  justify-content: space-evenly;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 2.5% 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font: 20px "Futura PT", sans-serif;
+}
+
+nav a:hover {
+  color: orange;
+  font: 28px "Futura PT", sans-serif;
+}
+
+main {
+  margin: 10% auto;
+  padding: 5%;
+}
+
+main p {
+  display: inline;
+}
+
+main span {
+  color: orange;
+}
+
+main h3 {
+  display: inline;
+  color: red;
+}
